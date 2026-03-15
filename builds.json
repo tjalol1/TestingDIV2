@@ -1,0 +1,648 @@
+[
+  {
+    "_comment": "Example: Striker St. Elmo's DPS \u2014 fully ID-referenced build",
+    "id": "build-001",
+    "slug": "striker-st-elmos-dps-y7s3",
+    "buildName": "St. Elmo's Striker DPS",
+    "shortSummary": "Striker 4pc with St. Elmo's Engine. Hit the 200-stack cap for +200% weapon damage. Highest sustained DPS in Y7S3 meta.",
+    "description": "Striker's Gamble stacks +1% weapon damage per hit (Risk Management backpack) up to 200 stacks with Press the Advantage chest. St. Elmo's shock rounds from Actum Est stun groups. Coyote's Mask provides group-wide crit buff. Goal: reach 60% Crit Chance cap, then stack Crit Damage.",
+    "specialization": "demolitionist",
+    "playstyle": "dps",
+    "difficulty": "heroic",
+    "activityType": [
+      "solo",
+      "group",
+      "heroic",
+      "legendary",
+      "countdown"
+    ],
+    "patchVersion": "Y7S3",
+    "sourceType": "curated",
+    "author": "Kamikazevondoom",
+    "creatorVerified": true,
+    "rating": 9.4,
+    "views": 28400,
+    "saves": 1980,
+    "tags": [
+      "DPS",
+      "Heroic",
+      "Legendary",
+      "Solo",
+      "Group"
+    ],
+    "beginnerFriendly": false,
+    "soloFriendly": true,
+    "groupFriendly": true,
+    "gear": {
+      "mask": {
+        "itemId": "exotic-coyotes-mask",
+        "itemName": "Coyote's Mask",
+        "brand": "Exotic",
+        "rarity": "exotic",
+        "isExotic": true,
+        "isNamed": false,
+        "core": "Weapon Damage",
+        "attr1": "Crit Hit Chance",
+        "attr2": "Crit Hit Damage",
+        "mod": "Crit Hit Damage",
+        "talentId": null,
+        "notes": "Hit 4 different enemies for group-wide +10% CHC for 10s. Fire into groups as your opener."
+      },
+      "chest": {
+        "itemId": "item-strikers-chest",
+        "itemName": "Striker's Chest",
+        "brand": "Striker's Battlegear",
+        "gearSetId": "set-strikers-battlegear",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Weapon Damage",
+        "attr1": "Crit Hit Damage",
+        "attr2": "Crit Hit Damage",
+        "mod": "Weapon Damage",
+        "talentId": "talent-press-the-advantage",
+        "notes": "Press the Advantage extends stack cap to 200. Mandatory \u2014 do not swap this talent."
+      },
+      "backpack": {
+        "itemId": "item-strikers-backpack",
+        "itemName": "Striker's Backpack",
+        "brand": "Striker's Battlegear",
+        "gearSetId": "set-strikers-battlegear",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Weapon Damage",
+        "attr1": "Crit Hit Damage",
+        "attr2": "Crit Hit Chance",
+        "mod": "Weapon Damage",
+        "talentId": "talent-risk-management",
+        "notes": "Risk Management scales each stack from 0.65% to 1%. At 200 stacks = +200% weapon damage total."
+      },
+      "gloves": {
+        "itemId": "item-strikers-gloves",
+        "itemName": "Striker's Gloves",
+        "brand": "Striker's Battlegear",
+        "gearSetId": "set-strikers-battlegear",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Weapon Damage",
+        "attr1": "Crit Hit Chance",
+        "attr2": "Crit Hit Damage",
+        "mod": "Weapon Damage",
+        "talentId": null,
+        "notes": null
+      },
+      "holster": {
+        "itemId": "item-grupos-holster",
+        "itemName": "Grupo Sombra Holster",
+        "brand": "Grupo Sombra S.A.",
+        "gearSetId": null,
+        "rarity": "high-end",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Weapon Damage",
+        "attr1": "Crit Hit Damage",
+        "attr2": "Armor",
+        "mod": "Weapon Damage",
+        "talentId": null,
+        "notes": "Grupo Sombra 2pc with Kneepads gives +10% Weapon Damage brand bonus."
+      },
+      "kneepads": {
+        "itemId": "item-grupos-kneepads",
+        "itemName": "Grupo Sombra Kneepads",
+        "brand": "Grupo Sombra S.A.",
+        "gearSetId": null,
+        "rarity": "high-end",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Armor",
+        "attr1": "Armor Regen",
+        "attr2": "Crit Hit Chance",
+        "mod": "Weapon Damage",
+        "talentId": null,
+        "notes": null
+      }
+    },
+    "weapons": {
+      "primary": {
+        "weaponId": "ar-st-elmos-engine",
+        "weaponName": "St. Elmo's Engine",
+        "weaponType": "Assault Rifle (Exotic)",
+        "rarity": "exotic",
+        "talentId": "talent-actum-est",
+        "talentName": "Actum Est",
+        "talentIsLocked": true,
+        "attribute3": "DMG to Targets Out of Cover",
+        "mods": "Magazine: Extra Rounds | Muzzle: Crit Hit Damage | Optic: Crit Hit Damage",
+        "setupSteps": [
+          "Reconfigure 3rd attribute to DMG to Targets Out of Cover at the Crafting Station.",
+          "Set all mod slots to Critical Hit Damage.",
+          "Max out Core1 (AR Damage) via Tinkering \u2014 this is your primary damage stat."
+        ],
+        "drops": [
+          {
+            "source": "Targeted Loot: Assault Rifles in Countdown (Heroic)",
+            "rate": "targeted",
+            "note": "Set AR as your targeted loot type before launching."
+          },
+          {
+            "source": "Exotic Cache from Season Pass reward track",
+            "rate": "world",
+            "note": "Fastest guaranteed route if you have Season Pass."
+          }
+        ],
+        "notes": "Shock from Actum Est stuns groups every 100 hits \u2014 use it to reset rooms in Legendary."
+      },
+      "secondary": {
+        "weaponId": "lmg-gr9",
+        "weaponName": "GR9 LMG",
+        "weaponType": "Light Machine Gun",
+        "rarity": "high-end",
+        "talentId": "talent-frenzy",
+        "talentName": "Frenzy",
+        "talentIsLocked": false,
+        "attribute3": "Crit Hit Damage",
+        "mods": "Magazine: Extra Rounds | Muzzle: Crit Hit Damage",
+        "setupSteps": [
+          "Roll Frenzy talent via Recalibration or Tinkering.",
+          "Roll Crit Hit Damage as 3rd attribute \u2014 LMG Core2 is already DMG Out of Cover (locked), no need to add it.",
+          "Reload from empty before entering rooms to proc Frenzy (+25% fire rate and damage for 10s)."
+        ],
+        "drops": [
+          {
+            "source": "World drop: LMGs at Heroic difficulty",
+            "rate": "world",
+            "note": "Any Heroic mission with LMG targeted loot."
+          }
+        ],
+        "notes": "LMG Core2 is always DMG Out of Cover on every LMG \u2014 do not waste a recalibration trying to roll it."
+      }
+    },
+    "skills": {
+      "skill1": {
+        "skillId": "skill-striker-drone",
+        "skillName": "Striker Drone",
+        "notes": "Set on your primary target. Adds hits toward Striker stacks without you spending ammo."
+      },
+      "skill2": {
+        "skillId": "skill-reviver-hive",
+        "skillName": "Reviver Hive",
+        "notes": "Place before every elite fight, not during. Your solo safety net."
+      }
+    },
+    "coreBalance": {
+      "red": 6,
+      "blue": 0,
+      "yellow": 0
+    },
+    "howToPlay": "Pre-stack Striker stacks on approach enemies before entering a new room \u2014 never walk into a boss fight at zero stacks. Fire continuously \u2014 every break resets stack building. Use Coyote's Mask opener by firing into groups of 4+ enemies first. Drone handles your primary elite, you clean up the rest. Reload when safe, not under fire \u2014 Frenzy on the LMG requires a full magazine for maximum effect.",
+    "strengths": [
+      "Highest sustained DPS in Y7S3 meta at full 200 stacks",
+      "Shock from St. Elmo's provides free CC every 100 hits",
+      "Works solo and in group \u2014 stacks in solo, stacks multiply in group",
+      "Coyote's Mask buffs the entire team"
+    ],
+    "weaknesses": [
+      "Requires 3 exotic items \u2014 Coyote's Mask, St. Elmo's Engine, and Memento if substituted",
+      "Stacks reset on death \u2014 losing stacks in Legendary requires rebuilding",
+      "Full potential requires 200 stacks, takes ~4-5 seconds of continuous fire to reach"
+    ],
+    "substitutions": [
+      "No Coyote's Mask? Use Vile Mask \u2014 slightly less damage but adds status effect synergy.",
+      "No Kingbreaker? Any named AR with Flatline talent works, just at 15% instead of 25%.",
+      "No St. Elmo's? Use Lexington Event Horizon (named AR) with Perfectly Unhinged \u2014 different playstyle, lower ceiling."
+    ],
+    "tips": [
+      "Pre-stack on approach enemies \u2014 enter every room at 100+ stacks minimum",
+      "60% Crit Chance cap first, then stack Crit Damage",
+      "Drone handles the elite, you clean trash \u2014 let drone sustain your stacks",
+      "Reviver Hive: place before the fight, not reactively"
+    ],
+    "createdAt": "2026-01-15T00:00:00Z",
+    "updatedAt": "2026-03-10T00:00:00Z",
+    "qualityLabel": "verified",
+    "heroImageHint": "Sustained AR DPS"
+  },
+  {
+    "id": "build-002",
+    "slug": "eclipse-vile-scorpio-status",
+    "buildName": "Vile Eclipse Status Control",
+    "shortSummary": "Status spread build for Legendary rooms and group control. Scorpio seeds statuses, Vile punishes every tick, Eclipse turns one target into a room-wide problem.",
+    "description": "Open with Scorpio to apply layered status effects, then let Eclipse Protocol spread them through clustered enemies. Vile adds passive damage over time while your skills keep rooms locked down.",
+    "specialization": "survivalist",
+    "playstyle": "status",
+    "difficulty": "legendary",
+    "activityType": [
+      "group",
+      "legendary",
+      "countdown"
+    ],
+    "patchVersion": "Y7S3",
+    "sourceType": "ai-generated",
+    "qualityLabel": "ai-suggested",
+    "author": "DIV2BUILDS AI",
+    "creatorVerified": false,
+    "rating": 8.7,
+    "views": 4200,
+    "saves": 220,
+    "tags": [
+      "Status",
+      "Legendary",
+      "Group",
+      "CC"
+    ],
+    "beginnerFriendly": false,
+    "soloFriendly": false,
+    "groupFriendly": true,
+    "gear": {
+      "mask": {
+        "itemId": "exotic-vile-mask",
+        "itemName": "Vile Mask",
+        "brand": "Exotic",
+        "rarity": "exotic",
+        "isExotic": true,
+        "isNamed": false,
+        "core": "Skill Tier",
+        "attr1": "Status Effects",
+        "attr2": "Skill Damage",
+        "mod": "Skill Haste",
+        "talentId": "talent-vile",
+        "notes": "The mask is the damage engine. Keep statuses rolling at all times."
+      },
+      "chest": {
+        "itemId": "item-eclipse-chest",
+        "itemName": "Eclipse Chest",
+        "brand": "Eclipse Protocol",
+        "gearSetId": "set-eclipse-protocol",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Skill Tier",
+        "attr1": "Status Effects",
+        "attr2": "Skill Haste",
+        "mod": "Skill Haste",
+        "talentId": "talent-spread",
+        "notes": "Spread is what makes the build absurd in cramped rooms."
+      },
+      "backpack": {
+        "itemId": "item-eclipse-backpack",
+        "itemName": "Eclipse Backpack",
+        "brand": "Eclipse Protocol",
+        "gearSetId": "set-eclipse-protocol",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Skill Tier",
+        "attr1": "Status Effects",
+        "attr2": "Skill Damage",
+        "mod": "Skill Haste",
+        "talentId": "talent-vindictive",
+        "notes": "Status applications buff ally damage windows."
+      },
+      "gloves": {
+        "itemId": "item-eclipse-gloves",
+        "itemName": "Eclipse Gloves",
+        "brand": "Eclipse Protocol",
+        "gearSetId": "set-eclipse-protocol",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Skill Tier",
+        "attr1": "Status Effects",
+        "attr2": "Skill Haste",
+        "mod": "Skill Haste",
+        "talentId": null,
+        "notes": null
+      },
+      "holster": {
+        "itemId": "item-eclipse-holster",
+        "itemName": "Eclipse Holster",
+        "brand": "Eclipse Protocol",
+        "gearSetId": "set-eclipse-protocol",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Skill Tier",
+        "attr1": "Skill Damage",
+        "attr2": "Status Effects",
+        "mod": "Skill Haste",
+        "talentId": null,
+        "notes": null
+      },
+      "kneepads": {
+        "itemId": "item-eclipse-kneepads",
+        "itemName": "Eclipse Kneepads",
+        "brand": "Eclipse Protocol",
+        "gearSetId": "set-eclipse-protocol",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Skill Tier",
+        "attr1": "Status Effects",
+        "attr2": "Skill Haste",
+        "mod": "Skill Haste",
+        "talentId": null,
+        "notes": null
+      }
+    },
+    "weapons": {
+      "primary": {
+        "weaponId": "shotgun-scorpio",
+        "weaponName": "Scorpio",
+        "weaponType": "Shotgun (Exotic)",
+        "rarity": "exotic",
+        "talentId": "talent-parasitic",
+        "talentName": "Parasitic",
+        "talentIsLocked": true,
+        "attribute3": "Weapon Damage %",
+        "mods": "Muzzle: Handling | Underbarrel: Accuracy",
+        "setupSteps": [
+          "Use Scorpio to seed the first status in each room.",
+          "Prioritize elites and rushers to spread control quickly."
+        ],
+        "drops": [
+          {
+            "source": "Targeted Loot: Shotguns",
+            "rate": "targeted",
+            "note": "Countdown or Heroic targeted loot are the simplest routes."
+          }
+        ],
+        "notes": "One shot starts the status chain."
+      },
+      "secondary": {
+        "weaponId": "ar-kingbreaker",
+        "weaponName": "Kingbreaker",
+        "weaponType": "Assault Rifle (Named)",
+        "rarity": "named",
+        "talentId": "talent-perfectly-flatline",
+        "talentName": "Perfectly Flatline",
+        "talentIsLocked": true,
+        "attribute3": "DMG to Targets Out of Cover",
+        "mods": "Optic: Crit Hit Chance | Muzzle: Crit Hit Damage",
+        "setupSteps": [
+          "Use only when enemies are already controlled.",
+          "This slot is a fallback, not the identity of the build."
+        ],
+        "drops": [
+          {
+            "source": "Targeted Loot: Assault Rifles",
+            "rate": "world",
+            "note": "Any AR-targeted farm works."
+          }
+        ],
+        "notes": "Fallback cleanup weapon."
+      }
+    },
+    "skills": {
+      "skill1": {
+        "skillId": "skill-chem-launcher-oxidizer",
+        "skillName": "Chem Launcher (Oxidizer)",
+        "notes": "Place on cover-heavy enemies or spawn doors."
+      },
+      "skill2": {
+        "skillId": "skill-seeker-mine-airburst",
+        "skillName": "Seeker Mine (Airburst)",
+        "notes": "Good room opener to start the first chain."
+      }
+    },
+    "coreBalance": {
+      "red": 0,
+      "blue": 0,
+      "yellow": 6
+    },
+    "howToPlay": "Do not tunnel on weapon DPS. Your job is room control. Seed one target with Scorpio, layer a skill status, then reposition and repeat before spreads expire.",
+    "strengths": [
+      "Excellent crowd control for Legendary groups",
+      "Very forgiving in tight interiors",
+      "Strong passive damage from Vile on top of control"
+    ],
+    "weaknesses": [
+      "Feels weak if enemies are spread out",
+      "Solo pace is slower than straight DPS",
+      "Requires deliberate targeting and cooldown timing"
+    ],
+    "substitutions": [
+      "No Vile Mask? Replace with a high-end status mask and expect lower passive damage.",
+      "No Scorpio? Any reliable status enabler works, but room control gets worse."
+    ],
+    "tips": [
+      "Start fights with statuses, not bullets.",
+      "Target the enemy that stands closest to the rest.",
+      "Your value is uptime, not kill count."
+    ],
+    "createdAt": "2026-03-15T00:00:00Z",
+    "updatedAt": "2026-03-15T00:00:00Z"
+  },
+  {
+    "id": "build-003",
+    "slug": "refactor-memento-hybrid",
+    "buildName": "Memento Refactor Hybrid",
+    "shortSummary": "Safe solo hybrid for Heroic farming. Kingbreaker handles pressure, deployed skills hold lanes, Memento smooths survivability and tempo.",
+    "description": "Refactor rewards you for fighting near deployed skills, so this build leans into turret and drone uptime while Memento gives armor, weapon damage and steady momentum in solo play.",
+    "specialization": "technician",
+    "playstyle": "hybrid",
+    "difficulty": "heroic",
+    "activityType": [
+      "solo",
+      "heroic",
+      "summit",
+      "countdown"
+    ],
+    "patchVersion": "Y7S3",
+    "sourceType": "ai-generated",
+    "qualityLabel": "ai-suggested",
+    "author": "DIV2BUILDS AI",
+    "creatorVerified": false,
+    "rating": 8.4,
+    "views": 3100,
+    "saves": 180,
+    "tags": [
+      "Hybrid",
+      "Solo",
+      "Heroic",
+      "Beginner Friendly"
+    ],
+    "beginnerFriendly": true,
+    "soloFriendly": true,
+    "groupFriendly": false,
+    "gear": {
+      "mask": {
+        "itemId": "item-refactor-mask",
+        "itemName": "Refactor Mask",
+        "brand": "Refactor",
+        "gearSetId": "set-refactor",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Skill Tier",
+        "attr1": "Crit Hit Chance",
+        "attr2": "Skill Damage",
+        "mod": "Crit Hit Damage",
+        "talentId": null,
+        "notes": null
+      },
+      "chest": {
+        "itemId": "item-refactor-chest",
+        "itemName": "Refactor Chest",
+        "brand": "Refactor",
+        "gearSetId": "set-refactor",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Skill Tier",
+        "attr1": "Skill Damage",
+        "attr2": "Crit Hit Damage",
+        "mod": "Skill Haste",
+        "talentId": "talent-kinetic-momentum",
+        "notes": "Keep both skills active to squeeze value out of the chest."
+      },
+      "backpack": {
+        "itemId": "exotic-memento",
+        "itemName": "Memento",
+        "brand": "Exotic",
+        "rarity": "exotic",
+        "isExotic": true,
+        "isNamed": true,
+        "core": "Weapon Damage",
+        "attr1": "Armor Regen",
+        "attr2": "Skill Efficiency",
+        "mod": "Crit Hit Chance",
+        "talentId": "talent-memento",
+        "notes": "The backpack carries survivability and long-fight tempo."
+      },
+      "gloves": {
+        "itemId": "item-refactor-gloves",
+        "itemName": "Refactor Gloves",
+        "brand": "Refactor",
+        "gearSetId": "set-refactor",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Weapon Damage",
+        "attr1": "Crit Hit Damage",
+        "attr2": "Skill Damage",
+        "mod": "Crit Hit Damage",
+        "talentId": null,
+        "notes": null
+      },
+      "holster": {
+        "itemId": "item-refactor-holster",
+        "itemName": "Refactor Holster",
+        "brand": "Refactor",
+        "gearSetId": "set-refactor",
+        "rarity": "gear-set",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Skill Tier",
+        "attr1": "Skill Haste",
+        "attr2": "Skill Damage",
+        "mod": "Skill Haste",
+        "talentId": null,
+        "notes": null
+      },
+      "kneepads": {
+        "itemId": "item-wyvern-kneepads",
+        "itemName": "Wyvern Wear Kneepads",
+        "brand": "Wyvern Wear",
+        "brandSetId": "brand-wyvern-wear",
+        "rarity": "high-end",
+        "isExotic": false,
+        "isNamed": false,
+        "core": "Weapon Damage",
+        "attr1": "Skill Damage",
+        "attr2": "Crit Hit Chance",
+        "mod": "Crit Hit Chance",
+        "talentId": null,
+        "notes": "One-piece Wyvern is easy value for hybrid output."
+      }
+    },
+    "weapons": {
+      "primary": {
+        "weaponId": "ar-kingbreaker",
+        "weaponName": "Kingbreaker",
+        "weaponType": "Assault Rifle (Named)",
+        "rarity": "named",
+        "talentId": "talent-perfectly-flatline",
+        "talentName": "Perfectly Flatline",
+        "talentIsLocked": true,
+        "attribute3": "DMG to Targets Out of Cover",
+        "mods": "Optic: Crit Hit Chance | Muzzle: Crit Hit Damage",
+        "setupSteps": [
+          "Stay close to your deployed skills.",
+          "Use Kingbreaker to finish enemies your skills are already softening."
+        ],
+        "drops": [
+          {
+            "source": "Targeted Loot: Assault Rifles",
+            "rate": "targeted",
+            "note": "Countdown is the least annoying way to target farm it."
+          }
+        ],
+        "notes": "Very stable main weapon for a safe farming loop."
+      },
+      "secondary": {
+        "weaponId": "lmg-iron-lung",
+        "weaponName": "Iron Lung",
+        "weaponType": "LMG (Exotic)",
+        "rarity": "exotic",
+        "talentId": "talent-iron-lung",
+        "talentName": "Iron Lung",
+        "talentIsLocked": true,
+        "attribute3": "Crit Hit Damage",
+        "mods": "Magazine: Extra Rounds | Muzzle: Crit Hit Damage",
+        "setupSteps": [
+          "Use for suppression-heavy rooms.",
+          "Swap when you need a safer lane-hold tool."
+        ],
+        "drops": [
+          {
+            "source": "Targeted Loot: LMGs",
+            "rate": "targeted",
+            "note": "Heroic targeted loot or exotic cache."
+          }
+        ],
+        "notes": "Alternate weapon for steadier lane control."
+      }
+    },
+    "skills": {
+      "skill1": {
+        "skillId": "skill-assault-turret",
+        "skillName": "Assault Turret",
+        "notes": "Anchor your fight space with it."
+      },
+      "skill2": {
+        "skillId": "skill-striker-drone",
+        "skillName": "Striker Drone",
+        "notes": "Use it to chase the enemy you are not currently shooting."
+      }
+    },
+    "coreBalance": {
+      "red": 3,
+      "blue": 0,
+      "yellow": 3
+    },
+    "howToPlay": "Drop turret before you peak, launch drone on the farthest target, then play the middle distance. The build is strongest when you let your skills create pressure while you clean up exposed enemies.",
+    "strengths": [
+      "Much safer than full glass DPS",
+      "Easy solo rhythm",
+      "Good bridge build if you do not want pure skill or pure weapon play"
+    ],
+    "weaknesses": [
+      "Lower ceiling than optimized Striker",
+      "Needs good skill uptime",
+      "Less explosive in group play"
+    ],
+    "substitutions": [
+      "No Memento? Use Hana-U backpack with In-Sync for a more skill-leaning version.",
+      "No Iron Lung? Any controllable LMG works as a fallback lane-hold weapon."
+    ],
+    "tips": [
+      "Place skills first, then shoot.",
+      "Fight around your turret instead of constantly pushing.",
+      "Great build for getting comfortable with Heroic loops."
+    ],
+    "createdAt": "2026-03-15T00:00:00Z",
+    "updatedAt": "2026-03-15T00:00:00Z"
+  }
+]
